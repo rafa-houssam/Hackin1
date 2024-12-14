@@ -21,7 +21,7 @@ const Services = () => {
           {[1, 2, 3].map((item, index) => (
             <div
               key={item}
-              className="relative bg-white rounded-xl shadow-lg overflow-hidden p-3 flex flex-col items-center text-center transition-all duration-1000 ease-in-out transform hover:scale-105 h-full"
+              className="relative bg-white rounded-xl shadow-lg overflow-hidden flex flex-col items-center text-center transition-all duration-1000 ease-in-out transform hover:scale-105 h-full"
               style={{ height: '400px', width: '280px' }}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
