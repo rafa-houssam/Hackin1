@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lufga:wght@400;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "sans";
+  margin-right: 0px;
+  margin-left: 220px;
+
+  font-family: 'ADLaM Display', sans-serif;
 }
+/* *{
+  font-family: 'Noyh-Black';
+
+} */
 
 :root {
   --foreground: #000000;

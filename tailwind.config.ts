@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 
+
 const config: Config = {
   darkMode: ['class'],
   content: [
@@ -10,8 +11,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Urbanist', 'sans-serif'],
-        lufga : ['Lufga', 'sans-serif'],// Add Urbanist as the default sans-serif font
+        adlam:["ADLaM Display", "serif"],
+        
+      
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -90,6 +92,7 @@ const config: Config = {
     },
   },
   plugins: [require('tailwindcss-animate')],
+  
 };
 
 export default config;
