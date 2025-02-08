@@ -154,9 +154,13 @@ export default function TravelPage() {
             <h2 className="text-xl font-bold mt-2">
               {trip}
             </h2>
-            <p className="text-sm text-gray-700">
-              Date: 2025-03-{index + 1} • 📍 {trip.split(" ")[0]}
-            </p>
+            <p className="text-sm text-gray-700 flex items-center"> 
+  Date: 2025-02-{index + 1} •  
+  <span className="flex items-center ml-2">
+     Location{index + 1} <img width={25} height={25} src="/images/location.svg" className="mr-1" />
+    
+  </span>
+</p>
             <p className="mt-2 text-sm">
               Participants: {participants[index]} available
             </p>

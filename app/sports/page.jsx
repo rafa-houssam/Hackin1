@@ -95,9 +95,13 @@ export default function Log2() {
               <h2 className="text-xl font-bold mt-2 text-center"> 
                 {event} Event 
               </h2> 
-              <p className="text-sm text-gray-700 text-center"> 
-                Date: 2025-02-{index + 1} • 📍 Location {index + 1} 
-              </p> 
+              <p className="text-sm text-gray-700 flex items-center"> 
+  Date: 2025-02-{index + 1} •  
+  <span className="flex items-center ml-2">
+     Location{index + 1} <img width={25} height={25} src="/images/location.svg" className="mr-1" />
+    
+  </span>
+</p>
               <p className="mt-2 text-sm text-center"> 
                 Participants: {participants[index]} available 
               </p> 
