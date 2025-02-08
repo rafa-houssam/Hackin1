@@ -23,11 +23,11 @@ export default function Page() {
 
         {/* Right: Language & Login */} 
         <div className="flex items-center gap-3 "> 
-          <button className="bg-white border border-black px-3 py-1 rounded-full text-black text-sm"> 
+          <button className="bg-white border  px-3 py-1 rounded-full text-black text-sm"> 
             English ▼ 
           </button> 
           <Link href="/login2"> 
-            <button className="bg-white border border-black px-3 py-1 rounded-full text-black text-sm"> 
+            <button className="bg-white border  px-3 py-1 rounded-full text-black text-sm"> 
               Login 
             </button> 
           </Link> 

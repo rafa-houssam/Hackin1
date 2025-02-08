@@ -75,8 +75,8 @@ export default function Log2() {
             <label className="inline-flex items-center"> 
               <input type="radio" name="terms" className="mr-2" /> I agree on <span className="text-blue-800 font-semibold">terms and services</span>
             </label> 
-            <label className="inline-flex items-center"> 
-              <input type="radio" name="terms" className="mr-2" /> I love CSE 
+            <label className="inline-flex items-center "> 
+              <input type="radio" name="terms" className="mr-2 " /> I love CSE 
             </label> 
           </div> 
           <Link href="/login1">  
