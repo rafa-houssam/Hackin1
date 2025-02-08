@@ -39,7 +39,7 @@ const New5rja = () => {
   }; 
 
   return ( 
-    <div className="flex flex-col items-center w-full p-6"> 
+    <div className="flex flex-col items-center w-full p-6 text-black"> 
       <form 
         onSubmit={handleSubmit} 
         className="bg-white w-[600px] p-6 rounded-lg shadow-lg" 
@@ -55,7 +55,7 @@ const New5rja = () => {
             name="title" 
             value={formData.title} 
             onChange={handleChange} 
-            className="w-full px-3 py-2 rounded-full border border-gray-300" 
+            className="w-full px-3 py-2 rounded-full border border-gray-300 bg-white" 
           /> 
         </div> 
 
@@ -67,17 +67,17 @@ const New5rja = () => {
               name="place" 
               value={formData.place} 
               onChange={handleChange} 
-              className="w-full px-3 py-2 rounded-full border border-gray-300" 
+              className="w-full px-3 py-2 rounded-full border border-gray-300 bg-white" 
             /> 
           </div> 
           <div> 
-            <label className="block font-bold mb-1">Date</label> 
+            <label className="block font-bold  mb-1">Date</label> 
             <input 
               type="date" 
               name="date" 
               value={formData.date} 
               onChange={handleChange} 
-              className="w-full px-3 py-2 rounded-full border border-gray-300" 
+              className="w-full px-3 py-2 rounded-full border border-gray-300 bg-white" 
             /> 
           </div> 
         </div> 
@@ -88,7 +88,7 @@ const New5rja = () => {
             name="description" 
             value={formData.description} 
             onChange={handleChange} 
-            className="w-full px-3 py-2 rounded-lg border border-gray-300" 
+            className="w-full px-3 py-2 rounded-lg border border-gray-300 bg-white" 
             rows="3" 
           ></textarea> 
         </div> 
@@ -99,7 +99,7 @@ const New5rja = () => {
             name="category" 
             value={formData.category} 
             onChange={handleChange} 
-            className="w-full px-3 py-2 rounded-full border border-gray-300" 
+            className="w-full px-3 py-2 rounded-full border border-gray-300 bg-white" 
           > 
             <option value="">Select</option> 
             <option value="sport">Sports</option> 
@@ -119,7 +119,7 @@ const New5rja = () => {
       </form> 
 
       {showPopup && 
-        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50"> 
+        <div className="fixed top-0 left-10 w-full h-full flex items-center justify-center bg-green-500 bg-opacity-50"> 
           <div className="bg-white p-4 rounded-lg shadow-lg text-center"> 
             <p className="text-lg font-bold">Post added successfully!</p> 
           </div> 

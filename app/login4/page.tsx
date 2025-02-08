@@ -14,14 +14,18 @@ export default function Log2() {
       {/* Main Content */} 
       <div className="flex justify-center items-center w-full mt-10 px-10"> 
         {/* Map Placeholder */} 
-        <div className="w-1/2 flex justify-center"> 
-          <Image 
-                            src="./images/Algeria.svg" 
-                            alt="Decorative Circle" 
-                            width={300} 
-                            height={700} 
-                          /> 
-        </div> 
+         <div className="w-1/2 flex flex-col items-center justify-center mr-20 mt-20">   
+          <Image  
+            src="./images/Algeria.svg"   
+            alt="Decorative Circle"   
+            width={300}   
+            height={700}   
+          />   
+          <h1 className="text-3xl md:text-4xl font-extrabold text-[#f2ce4b] mt-6 text-center drop-shadow-lg tracking-wide ml-10">
+         Register Now & <span className="text-[#ffd335]">Navigate Your Journey!</span> 
+        </h1>
+        
+        </div>  
  
         {/* Sign Up Form */} 
         <div className="w-1/3 p-6 border border-black rounded-xl bg-white shadow-lg"> 

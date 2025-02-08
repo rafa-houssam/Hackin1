@@ -6,6 +6,8 @@
 body {
   margin-right: 0px;
   margin-left: 220px;
+  background: #ffffff;
+  
 
   font-family: 'ADLaM Display', sans-serif;
 }
@@ -39,16 +41,7 @@ body {
 }
 
 /* Dark mode variables when dark class is applied */
-.dark {
-  --foreground: #ffffff;
-  --background: #121212;
-  --card: #333333;
-  --card-foreground: #ffffff;
-  --primary: #ff6347;
-  --primary-foreground: #ffffff;
-  --muted: #444444;
-  --muted-foreground: #bbbbbb;
-}
+
 
 @layer base {
   * {

@@ -160,7 +160,14 @@ export default function TravelPage() {
             <p className="mt-2 text-sm">
               Participants: {participants[index]} available
             </p>
-            <Link href="/details" className="bg-[#FEC700] text-white px-5 py-2 rounded-full font-bold w-full max-w-[200px] hover:bg-[#e0b413]" >Details</Link>
+            <div className="flex justify-center">
+  <Link 
+    href="/details" 
+    className="bg-[#FEC700] text-white px-5 py-2 rounded-full font-bold w-full max-w-[200px] hover:bg-[#e0b413] text-center"
+  >
+    Details
+  </Link>
+</div>
             {detailsVisible[index] &&
               <p className="mt-2 text-sm">
                 More details about the {trip}...
