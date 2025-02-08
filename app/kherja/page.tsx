@@ -102,7 +102,7 @@ const New5rja = () => {
             className="w-full px-3 py-2 rounded-full border border-gray-300 bg-white" 
           > 
             <option value="">Select</option> 
-            <option value="sport">Sports</option> 
+            <option value="sports">Sports</option> 
             <option value="charity">Charity</option> 
             <option value="travels">Travels</option> 
           </select> 
