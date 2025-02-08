@@ -6,7 +6,8 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Page() {  
   return (  
-    <div className="min-h-screen bg-[#FFF8E6] flex flex-col items-center">  
+    <div className="min-h-screen w-full bg-[#FFF8E6] flex flex-col items-center">
+  
       {/* ✅ FULL-WIDTH HEADER FIX */} 
       <header className="w-screen fixed top-0 left-0 bg-[#1C6999] py-2 px-6 flex items-center justify-between mb-20 "> 
         {/* Left: Logo */} 
@@ -21,11 +22,11 @@ export default function Page() {
         </div> 
 
         {/* Right: Language & Login */} 
-        <div className="flex items-center gap-3"> 
+        <div className="flex items-center gap-3 "> 
           <button className="bg-white border border-black px-3 py-1 rounded-full text-black text-sm"> 
             English ▼ 
           </button> 
-          <Link href="/login"> 
+          <Link href="/login2"> 
             <button className="bg-white border border-black px-3 py-1 rounded-full text-black text-sm"> 
               Login 
             </button> 
@@ -43,9 +44,9 @@ export default function Page() {
             width={300}    
             height={700}    
           />    
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#f2ce4b] mt-6 text-center drop-shadow-lg tracking-wide">
-            Register Now & <span className="text-[#ffd335]">Navigate Your Journey!</span>  
-          </h1> 
+         <h1 className="text-3xl md:text-4xl font-extrabold text-[#FF0D0D] mt-6 text-center drop-shadow-lg tracking-wide ml-10">
+ Register Now  <span className="text-[#000000]">& Step out of your <span className="text-[#134666]">bubble!</span></span> 
+</h1>
         </div> 
         
         {/* Registration Form */}

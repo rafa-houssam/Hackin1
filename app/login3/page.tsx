@@ -26,7 +26,7 @@ export default function Log2() {
           <button className="bg-white border border-black px-3 py-1 rounded-full text-black text-sm">  
             English ▼  
           </button>  
-          <Link href="/login">  
+          <Link href="/login2">  
             <button className="bg-white border border-black px-3 py-1 rounded-full text-black text-sm">  
               Login  
             </button>  
@@ -44,14 +44,14 @@ export default function Log2() {
              width={300}   
              height={700}   
            />   
-           <h1 className="text-3xl md:text-4xl font-extrabold text-[#f2ce4b] mt-6 text-center drop-shadow-lg tracking-wide ml-10">
-          Register Now & <span className="text-[#ffd335]">Navigate Your Journey!</span> 
-         </h1>
+           <h1 className="text-3xl md:text-4xl font-extrabold text-[#FF0D0D] mt-6 text-center drop-shadow-lg tracking-wide ml-10">
+ Register Now  <span className="text-[#000000]">& Step out of your <span className="text-[#134666]">bubble!</span></span> 
+</h1>
          
          </div>  
 
         {/* Login Form - Using the same spacing and layout */}  
-        <div className="w-1/3 p-6 border border-black rounded-xl bg-white shadow-lg mt-20">  
+        <div className="w-1/3 p-6 border border-black rounded-xl bg-white shadow-lg mt-10">  
           <h2 className="text-xl font-bold mb-4">Login</h2>  
             
           <div className="mb-4">  

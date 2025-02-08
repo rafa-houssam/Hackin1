@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <link rel="preconnect" href="https://fonts.gstatic.com" /> 
       <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet"/> 
 
-      <body> 
+      <body className='bg-white'> 
         <ClientLayout>{children}</ClientLayout> 
       </body> 
     </html> 
